@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <link rel="stylesheet" href="form.css">
+</head>
+<body>
+    
+    <div>
+
+        <form action="">
+            <h1>LOGIN PAGE</h1>
+            <div class="popo">
+            <div>
+                <label for="Name">First Name : </label>
+            <input type="text" id="Name">
+            </div> <br>
+            <div>
+                <label for="Namee">Last Name : </label>
+            <input type="text" id="Namee">
+            </div> <br>
+            <div>
+                <label for="Age">Age : </label>
+                <input type="number">
+            </div> <br>
+            <div>
+                <label for="">Contact Number</label>
+                <input type="number">
+            </div>
+            <div>
+                <label for="">DOB</label>
+                <input type="date" min="2000-01-30" max="2010-01-30">
+                <input type="time">
+            </div> <br>
+            <div>
+                <label for="">Email: </label>
+                <input type="email">
+            </div> <br>        
+            <div>
+                <label for="">Password: </label>
+                <input type="password">
+            </div><br>
+            <div>
+                <h2>Gender</h2>
+                <label for="">Male: </label>
+                <input type="radio" name="gender">
+                <label for="">Female: </label>
+                <input type="radio" name="gender">
+                <label for="">Others: </label>
+                <input type="radio" name="gender" required>
+            </div> <br>
+            <div>
+                <h2> Subjects</h2>
+                <label for="">PSP</label>
+                <input type="checkbox" name="abc"> 
+    
+                <label for="">MATHS</label>
+                <input type="checkbox" name="abc">
+    
+                <label for="">S&W</label>
+                <input type="checkbox" >
+            </div><br>
+            <div>
+                <label for="">Language :</label>
+                <select>
+                    <option value="EN" selected>English</option>
+                    <option value="HI"></option>
+                    <option value="TA">Tamil</option>
+                    <option value="MA">Marathi</option>
+    
+                </select>
+            </div> <br>
+            <div>
+                <label for="">Color</label>
+                <input type="color">
+            </div> <br>
+            <div>
+                <label for="">Upload File :</label>
+                <input type="file" >
+            </div><br>
+    
+            <button type="submit">Submit</button>
+            <button type="reset">Reset</button>
+        </div>
+    
+        </form>
+        
+    </div>
+</body>
+</html>
